@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Floricultura</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" defer></script>
+    <script src='pagjs.js' defer></script>
+    <script src="ajax.js" defer></script>
+
+</head>
+
+<body background="  https://s1.1zoom.me/b5050/103/Roses_Colored_background_548567_3840x2400.jpg
+">
+<style type="text/css">
+    img, body {
+
+background-size: 110% 100%;
+
+    }
+
+body {
+
+    text-align: center;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+ h3 {
+    margin-block-start: 2em;
+    margin-block-end: 1em;
+    text-align: inherit;
+    font-family: cursive;
+    height: 79px;
+    width: 1344px;
+    font-size: 27px;
+}
+
+</style>
+
+
+        <h3>Consultar cliente</h3>   
+        <div id="saida"></div><br>
+        <p>Insira o nome do cliente:</p>
+        <input id="entrada" type="text"/><br/>
+        <button id="select">Consultar</button>
+        <hr>
+
+        <h3>Cadastrar novos produtos</h3> 
+        Nome: <input id="nome" type="text"/><br/>
+        Categoria: <input id="categoria" type="text"/><br/>
+        Preço: <input id="preco" type="text"/><br/>
+        <p id="resposta"></p>
+        <button id="cadastrar">Cadastrar</button>
+        <hr>
+
+        <h3>Deletar Produto</h3>
+        Código: <input id="cod_del" type="number"/><br/>
+        <p id="resposta1"></p>
+        <button id="deletar">Deletar</button>
+        <hr>    
+
+        
+        <h3>Atualizar Preço</h3>
+        
+        Código: <input id="at_cod" type="number"/><br/>
+        Preço: <input id="at_preco" type="number"/><br/>
+        <p id="atual"></p>
+        <button id="atualizar">Atualizar</button>
+        <hr>
+
+        <h3>Consultar pedidos</h3>   
+        <div id="retorno"></div><br>
+        <p>Insira o ID do pedido:</p>
+        <input id="numerop" type="number"/><br/>
+        <button id="pedido">Consultar</button>
+        <hr>
+</body>
+</html>
